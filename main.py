@@ -23,7 +23,7 @@ if __name__ == "__main__":
 	HOST = "localhost"
 	DATABASE = "your_db"
 	USER = "your_user"
-	PASSWORD = "your_password"
+	PASSWORD = ""
 	PORT = 5432
 
 	connection = create_pg_connection(HOST, DATABASE, USER, PASSWORD, PORT)
